@@ -39,6 +39,6 @@ hint1
 
 You must upload your TextIO.java file and save it under the default package in the source packages of your project. You can see what this looks like in the preceding figure in the left side of the screen where under the project “SnakeEyesCount” you have Source Packages and within this “<default packages>” and the package “snakeeyescount”.
 
-hint2
+hint2 
 
 Finally you must edit your TextIO.java source code file and add a line at the top of the file that has “package <nameofpackage>”. In the example below the name of the package is snakeeyescount. Add the proper package line at the top of TextIO.java
