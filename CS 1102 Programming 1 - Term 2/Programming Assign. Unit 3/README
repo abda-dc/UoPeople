@@ -1,0 +1,13 @@
+For the unit 3 assignment, you must develop a program. that reads the file icecream.dat. This file is supplied in the “Files for Unit 3 Assignment” directory in Unit 3. You must use TextIO methods to read the file. As you read the file, count the total number of ice cream cones that were sold. (This is the same as the number of lines that you read from the file.) Also count the total number of "Strawberry" cones that were sold.
+
+At the end of the program, print out the total number of cones, the number of Strawberry cones, and the percentage of cones that were Strawberry.
+
+Note: To do this program, you have to know when to stop reading from the file. TextIO has a function named TextIO.eof() to check whether the entire file has been read. The value of this function is true if the entire file has been read. The value is false if there is more data in the file. You want to continue reading from the file as long as TextIO.eof() is false.
+
+Note: Suppose that flavor is a variable of type String and you want to test whether its value is "Strawberry". To do this, test whether flavor.equals("Strawberry"). (Do not use == to test for equality of Strings.)
+
+Each line of the file icecream.dat is an ice cream flavor such as "Vanilla" or "Strawberry." A line represents the sale of one ice cream cone of the given flavor.
+
+You must complete your program, test, debug, and execute it. You must submit your java code file. The output of your program must be captured by either copying the content in the output window and pasting it into a text document that you submit along with your java code file, or by capturing the image of the screen which contains the output of your java program. In windows you can capture a screen shot with the Ctrl Alt and Print Screen key sequence. This image can then be pasted into a Word, WordPad, or OpenOffice document which can be submitted with your assignment.
+
+For students using the program service online, make sure that you create both the TextIO.java and the icecream.dat files as java project files. I found it was easier to rename icecream.dat to icecream.txt for some reason. For students using Netbeans, use the same set of rules that were defined in Unit 2 to setup your project and include the TextIO.java file. Also make sure that you copy the icecream.dat file into your project directory so that it can be found by your java program.
