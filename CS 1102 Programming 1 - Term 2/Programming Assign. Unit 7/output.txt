@@ -1,0 +1,3 @@
+run:
+This is not a square matrix
+BUILD SUCCESSFUL (total time: 0 seconds)
